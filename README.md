@@ -15,7 +15,7 @@
     <li>Ducki (Ported the fortmme from boron to this gs)
     <li>Pongo (Claude needed an understanding for the ais)</li>
     <li>Ploosh (Claude needed a base)</li>
-    <li>Ralzify (Claude needed an understanding for quick commands, phoebe, and grok used "cheat fly")</li>
+    <li>Ralzify (Claude needed an understanding for quick commands and grok used "cheat fly")</li>
     <li>Claude (Did 99.9% of the work)</li>
   </ul>
 </details>
