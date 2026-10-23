@@ -12,7 +12,7 @@
   <summary>Credits <3</summary>
   <ul>
     <li>4e0h (Did the prompting and testing ofc)</li>
-    <li>Ducki (Ported the fortmme from boron to this gs)
+    <li>Ducki (Ported the fortmme from boron to this gs)<li>
     <li>Pongo (Claude needed an understanding for the ais)</li>
     <li>Ploosh (Claude needed a base)</li>
     <li>Ralzify (Claude needed an understanding for quick commands, phoebe, and grok used "cheat fly")</li>
