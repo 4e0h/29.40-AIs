@@ -1,0 +1,236 @@
+#pragma once
+
+struct FConfiguration
+{
+    static inline auto Playlist = L"/Game/Athena/Playlists/Playlist_DefaultSolo.Playlist_DefaultSolo";
+    static inline auto MaxTickRate = 30;
+
+    static inline auto bDisableStorm = false;
+
+    
+    static inline auto bUseMapStormTimes = true;
+
+    
+    
+    
+    
+    
+    static inline auto bUse1460StormTimes = true;   
+
+    static inline constexpr float StormZoneTimes[][2] = {
+        { 170.f, 210.f },
+        { 120.f, 120.f },
+        {  90.f,  90.f },
+        {  80.f,  70.f },
+        {  50.f,  60.f },
+        {  30.f,  60.f },
+        {   0.f,  55.f },
+        {   0.f,  50.f },
+        {   0.f,  75.f },
+        {  10.f,  10.f },
+    };
+
+    static inline auto bBotLobby = true;
+    static inline auto BotCount = 99;
+    static inline auto bBotsFillLobby = false;
+    static inline auto bBotsWaitForHuman = true;
+    static inline auto BotsPerTick = 4;
+    static inline auto BotSpawnerData = L"";
+    static inline auto bBotStormDamage = true;
+    static inline auto bBotsSyncPlayersLeft = true;
+    static inline auto BotMaxGlideDistance = 90000.f;
+    static inline auto BotThankBusDriverChance = 1.f;
+    static inline auto BotPlayerAttraction = 0.15f;
+    static inline auto BotAccuracy = 0.03f;
+    static inline auto bBotGunDamage = true;
+    static inline auto LootRarityBoost = 3.f;
+    static inline auto PeterGriffinShotgunChance = 0.2f;
+    static inline auto JulesGrapplerChance = 0.2f;
+    static inline auto AutoFillTargetPlayerCount = 100;
+
+
+    
+    static inline auto StormPhaseTimeScale = 1.0f;
+
+    
+    static inline auto StormStartPhase = 1;
+
+    static inline auto bStormLog = true;
+
+    static inline auto StormLogIntervalSeconds = 5.f;
+
+    static inline auto bBotLog = true;
+
+    static inline auto bManageStormDamage = false;
+
+    static inline auto StormDamageScale = 1.f;
+
+    static inline auto bBotsFleeTheStorm = true;
+
+    static inline auto BotZoneEntryFraction = 0.5f;
+
+    static inline auto bRecordPlaceDump = true;
+
+    static inline auto PlaceDumpHotkey = 0x73;
+
+    
+    
+    static inline auto bUsePlaceDump = true;
+
+    static inline auto PlaceDumpFolder = "C:\\4e0h\\Locations";
+
+    static inline auto PlaceDumpIntervalSeconds = 0.1f;
+
+    static inline auto PlaceDumpMinSpacing = 120.f;
+
+    static inline auto bRecordBots = true;
+
+    static inline auto PlaceDumpBotIntervalSeconds = 1.0f;
+
+    static inline auto PlaceDumpBotMinSpacing = 300.f;
+
+    static inline auto PlaceDumpHeightCeiling = 12000.f;
+
+    static inline auto PlaceDumpMaxStep = 1200.f;
+
+    static inline auto bBotCombatEnabled = true;
+
+    static inline auto BotSprintSpeed = 510.f;
+
+    static inline auto bBotsFaceTheirDirection = true;
+
+    static inline auto BotFacingMinimumSpeed = 40.f;
+
+    static inline auto bBotsNeverRunOutOfAmmo = true;
+
+    static inline auto bDisableStormSurge = true;
+
+    static inline auto bLockServerSpeed = true;
+
+    static inline auto bAllBotsFight = true;
+
+    static inline auto BotEngageRange = 12000.f;
+
+    
+    static inline auto BotFieldOfView = 150.f;
+
+    
+    static inline auto BotHearingRange = 3000.f;
+
+    
+    static inline auto BotMemoryTicks = 60;
+
+    static inline auto BotHuntPlayerRange = 24000.f;
+
+    static inline auto BotPlayerPreference = 0.35f;
+
+    static inline auto bBotsFightEachOther = true;
+
+    static inline auto bBotsFightRealPlayers = true;   
+
+    
+    
+    
+    
+    
+    
+    static inline auto BotShootRealPlayerRange = 3000.f;
+
+    
+    
+    static inline auto BotLongRangeAimErrorDegrees = 18.0f;
+
+    
+    static inline auto BotShotAggroTicks = 180;  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    static inline auto BotAimErrorDegrees = 6.0f;
+
+    
+    
+    static inline auto BotAimErrorPitchScale = 0.5f;
+
+    
+    
+    
+    
+    
+    static inline auto BotAimMissChance = 0.30f;
+
+    
+    
+    
+    
+    static inline auto BotWallDistance = 1024.f;
+
+    
+    
+    
+    
+    
+    static inline auto BotGlideDescentSpeed = 900.f;
+
+    
+    static inline auto BotMaxGlideSeconds = 45.f;
+
+    static inline auto ElimCreditRange = 25000.f;
+
+    static inline auto BotShieldMinimum = 25.f;
+
+    static inline auto BotShieldMaximum = 100.f;
+
+    static inline auto GrapplerClipSize = 999;
+
+    static inline auto bGodModeForRealPlayer = false;
+
+    static inline auto bLateGame = false;
+    static inline auto LateGameZone = 3;
+    static inline auto bLateGameLongZone = false;
+    static inline auto bEnableCheats = true;
+    static inline auto SiphonAmount = 50;
+    static inline auto bInfiniteMats = false;
+    static inline auto bInfiniteAmmo = false;
+    static inline auto bForceRespawns = false;
+    static inline auto bJoinInProgress = false;
+    static inline auto bAutoRestart = false;
+
+    static inline auto bKeepInventory = true;
+    static inline auto bClearInventoryOnBus = true;
+
+    
+    
+    static inline auto HotDropPoi = "";
+
+    
+    static inline auto HotDropBots = 0;
+
+    
+    static inline auto HotDropRadius = 9000.f;
+    static inline auto AutoFillBatchSize = 1;
+    static inline auto AutoFillIntervalSeconds = 5;
+    static inline auto Port = 7777;
+    static inline auto bEnableIris = true;
+
+    static inline auto bSpawnBossesAndHenchmen = false;
+
+    static inline auto HenchmenPerPOI = 6;
+
+    static inline auto bForceBossAtEveryPOI = false;
+
+    static inline auto MaxNPCs = 40;
+
+    static inline auto bNPCLog = true;
+    static inline constexpr auto bGUI = false;
+    static inline constexpr auto bCustomCrashReporter = true;
+    static inline constexpr auto bUseStdoutLog = false;
+    static inline constexpr auto WebhookURL = "";
+};
